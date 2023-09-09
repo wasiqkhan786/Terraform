@@ -10,3 +10,4 @@
 
 # Ignore sensitive variable input files (tfvars)
 .idea
+.awa_provider_module.tf
