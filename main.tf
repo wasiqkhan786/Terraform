@@ -5,7 +5,6 @@ provider "aws" {
 
 module "my_elasticbeanstalk" {
   source = "./modules/elastic_beanstalk"
-  aws_region = var.aws_region
 }
 
 module "my_iam_role" {
@@ -15,6 +14,7 @@ module "my_iam_role" {
 
 module "my_s3_bucket" {
   source = "./modules/s3_bucket"
-
   # Pass S3 bucket-related variables as needed
+  # For example: bucket_name = "my-s3-bucket"
 }
+  # Pass S3 bucket-related variables as needed

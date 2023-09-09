@@ -1,0 +1,12 @@
+# Ignore Terraform local state files
+*.tfstate
+*.tfstate.*
+
+# Ignore directories containing local Terraform files
+.terraform/
+
+# Ignore dependency lock files
+*.lock.hcl
+
+# Ignore sensitive variable input files (tfvars)
+.idea
